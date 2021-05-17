@@ -12,6 +12,6 @@ class LetteRs < Formula
   end
 
   test do
-    assert_match "lette.rs 1.2.3", shell_output("letters --version")
+    assert_match "You need a config file to do anything!\nLet's set one up...\n", shell_output("letters write")
   end
 end
