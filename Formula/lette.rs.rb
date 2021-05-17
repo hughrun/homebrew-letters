@@ -6,6 +6,7 @@ class LetteRs < Formula
   license "AGPL-3.0-or-later"
 
   depends_on "rust" => :build
+  depends_on "openssl"
 
   def install
     system "cargo", "install", *std_cargo_args
