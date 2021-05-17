@@ -1,4 +1,4 @@
-# Hughrun LetteRs
+# Homebrew tap for hughrun/lette.rs
 
 ## How do I install these formulae?
 
